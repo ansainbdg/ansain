@@ -2,7 +2,7 @@ import math
 
 
 def manager(base, position):
-    ins = round((base+position)*0.15, -1)
+    ins = round((base+position)*0.17, -1)
     income = (base+position-ins)*0.9
     return income
 
