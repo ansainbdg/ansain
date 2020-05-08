@@ -13,8 +13,6 @@ def round10(v):
 def trunc10(v):
     t = int(v / 10) * 10
     return t
-
-<<<<<<< HEAD
 # アルバイト
 def calc_part(unit, time):
     salary = unit * time
@@ -28,7 +26,7 @@ if __name__ == "__main__":
 
     print(f'菊地章さんの振込額={bank_kiku}')
     print(f'山岸柑奈さんの振込額={bank_yama}')
-=======
+
 # 一般社員
 def calc_general(base, over):
     over_price = trunc10(base / 160.0 * 1.25)
@@ -59,4 +57,3 @@ if __name__ == "__main__":
 
     print(f'寺尾哲雄さんの振込額={bank_terao}')
     print(f'若林仁継さんの振込額={bank_waka}')
->>>>>>> master
