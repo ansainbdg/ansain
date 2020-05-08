@@ -22,6 +22,7 @@ def part(unit, time):
 if __name__ == "__main__":
     terao_income = manager(350000, 80000)
     wakabayashi_income = manager(375000, 40000)
+    hamaguchi_income = manager(360000, 30000)
     terada_income = general(320000, 30)
     hirota_income = general(295000, 20)
     kannuma_income = general(220000, 35)
@@ -30,6 +31,7 @@ if __name__ == "__main__":
 
     print(f' 寺尾さんの振込額は{terao_income}')
     print(f' 若林さんの振込額は{wakabayashi_income}')
+    print(f' 浜口さんの振込額は{hamaguchi_income}')
     print(f' 寺田さんの振込額は{terada_income}')
     print(f' 広田さんの振込額は{hirota_income}')
     print(f' 菅沼さんの振込額は{kannuma_income}')
