@@ -26,6 +26,7 @@ if __name__ == "__main__":
     terada_income = general(320000, 30)
     hirota_income = general(295000, 20)
     kannuma_income = general(220000, 35)
+    adachi_income = general(310000, 20)
     kikuchi_income = part(1200, 90)
     yamagishi_income = part(1000, 120)
 
