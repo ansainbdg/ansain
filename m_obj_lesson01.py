@@ -36,5 +36,6 @@ if __name__ == "__main__":
     print(f' 寺田さんの振込額は{terada_income}')
     print(f' 広田さんの振込額は{hirota_income}')
     print(f' 菅沼さんの振込額は{kannuma_income}')
+    print(f' 安達さんの振込額は{adachi_income}')
     print(f' 菊池さんの振込額は{kikuchi_income}')
     print(f' 山岸さんの振込額は{yamagishi_income}')
