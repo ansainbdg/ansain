@@ -28,6 +28,7 @@ if __name__ == "__main__":
     kannuma_income = general(220000, 35)
     kikuchi_income = part(1200, 90)
     yamagishi_income = part(1000, 120)
+    mochiduki_income = part(1100, 90)
 
     print(f' 寺尾さんの振込額は{terao_income}')
     print(f' 若林さんの振込額は{wakabayashi_income}')
@@ -37,3 +38,4 @@ if __name__ == "__main__":
     print(f' 菅沼さんの振込額は{kannuma_income}')
     print(f' 菊池さんの振込額は{kikuchi_income}')
     print(f' 山岸さんの振込額は{yamagishi_income}')
+    print(f' 望月さんの振込額は{mochiduki_income}')
