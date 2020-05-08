@@ -9,7 +9,7 @@ def manager(base, position):
 
 def general(base, overtime):
     money = math.floor(base*(1+overtime*1.25/160)/10)*10
-    ins = round(money*0.15, -1)
+    ins = round(money*0.17, -1)
     income = (money-ins)*0.9
     return income
 
