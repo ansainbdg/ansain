@@ -15,4 +15,3 @@ def trunc10(v):
     return t
 
 if __name__ == "__main__":
-    pass
