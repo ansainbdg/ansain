@@ -22,7 +22,7 @@ def part(unit, time):
 if __name__ == "__main__":
     terao_income = manager(350000, 80000)
     wakabayashi_income = manager(375000, 40000)
-    hamaguchi_income = manager(360000, 30000)
+    hamaguchi_income = manager(360000, 40000)
     terada_income = general(320000, 30)
     hirota_income = general(295000, 20)
     kannuma_income = general(220000, 35)
